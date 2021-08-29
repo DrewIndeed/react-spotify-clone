@@ -1,9 +1,11 @@
 import './App.css';
+import Login from './Components/Login';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>SPOTIFY CLONE BABAY</h1>
+    <div className="app">
+      <Login />
     </div>
   );
 }

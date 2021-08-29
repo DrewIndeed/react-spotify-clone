@@ -1,0 +1,25 @@
+.login .login__logo {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.login > p {
+    margin-top: 34px;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.login__logo img {
+    margin: 23px 0;
+    width: 13.8%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
