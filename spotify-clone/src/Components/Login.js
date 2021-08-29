@@ -43,6 +43,14 @@ function Login() {
           border="2px solid gray"
           belongTo=""
         />
+        <ContinueWith
+          textColor="black"
+          backgroundColor="#1cd562"
+          textContent="QUICK LOG IN"
+          border="2px solid #1cd562"
+          belongTo="spotify"
+          isSpecial
+        />
       </div>
     </div>
   );
