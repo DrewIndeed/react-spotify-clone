@@ -27,7 +27,7 @@ function ContinueWith(props) {
       }}
       onMouseEnter={props.isSpecial? changeOnEnterSpecial : changeOnEnter}
       onMouseOut={changeOnLeave}
-      href={props.isSpotify? loginUrl() : "#"}
+      href={props.isSpotify? loginUrl() : ""}
     >
       
       {props.belongTo === 'facebook' && <img style={{width: '38px', marginRight: '8px'}} src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-White-Dark-Background-Logo.wine.svg" alt="facebook logo" />}
