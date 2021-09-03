@@ -13,6 +13,7 @@ a {
     font-size: 14px;
     margin-top: 25px;
     transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 a > img {
