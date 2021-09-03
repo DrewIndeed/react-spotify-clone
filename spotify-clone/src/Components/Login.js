@@ -4,7 +4,7 @@ import ContinueWith from "./ContinueWith";
 
 function Login() {
   return (
-    <div class="login">
+    <div className="login">
       <div className="login__logo">
         <img
           src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png"
