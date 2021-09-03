@@ -11,7 +11,7 @@ function Login() {
           alt="spotify logo"
         />
       </div>
-      <p>To continue, log in to Spotify.</p>
+      <p>To continue, click Quick Log In.</p>
       <div className="buttons">
         <ContinueWith
           textColor="white"
