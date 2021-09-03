@@ -50,6 +50,7 @@ function Login() {
           border="2px solid #1cd562"
           belongTo="spotify"
           isSpecial
+          isSpotify
         />
       </div>
     </div>
