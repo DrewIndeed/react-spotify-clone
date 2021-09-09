@@ -8,6 +8,7 @@ import RepeatIcon from "@material-ui/icons/Repeat";
 import { Grid, Slider } from "@material-ui/core";
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
 import VolumeDownIcon from "@material-ui/icons/VolumeDown";
+import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
 
 function Footer() {
   return (
@@ -22,6 +23,7 @@ function Footer() {
           <h4>Yeah!</h4>
           <p>Usher</p>
         </div>
+        <AddCircleOutlineIcon />
       </div>
       <div className="footer__center">
         <ShuffleIcon className="footer__green"></ShuffleIcon>
