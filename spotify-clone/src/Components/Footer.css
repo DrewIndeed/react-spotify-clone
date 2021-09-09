@@ -36,6 +36,10 @@
     color: white;
 }
 
+.footer__right * .MuiSlider-root{
+    color: #1DB954;
+}
+
 .footer__albumLogo {
     height: 100px;
     width: 100px;
