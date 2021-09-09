@@ -1,8 +1,8 @@
 .body {
     padding: 20px; 
-    flex: 0.8;
+    flex: 0.85;
     color: white;
-    background: linear-gradient(rgb(91, 87, 115), rgba(0,0,0,1));  
+    background: linear-gradient(rgb(20, 50, 101), rgba(0,0,0,1));  
 }
 
 .body__info {
@@ -12,7 +12,7 @@
 }
 
 .body__info > img {
-    height: 20vh;
+    height: 35vh;
     margin: 0 20px;
     box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
 }
@@ -22,8 +22,8 @@
 }
 
 .body__infoText > h2 { 
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 5.5rem;
+    margin-bottom: 8px;
 }
 
 .body__infoText > p {

@@ -1,17 +1,19 @@
 import React from 'react'
 import './Body.css';
 import Header from './Header';
+import { useDataLayerValue } from "./DataLayer";
 
-function Body( props ) {
+function Body(props) {
+    const [{ norah_jones }] = useDataLayerValue();
     return (
         <div className="body">
             <Header spotify={props.spotify}></Header>
             <div className="body__info">
-                <img src="https://assets.website-files.com/5c1426cc1ac48f15ca9c8e22/5ee167c942a25f251fb308fa_discover%20weekly.jpg" alt="discovery thumbnail" />
+                <img src={ norah_jones?.images[0].url } alt="discovery thumbnail" />
                 <div className="body__infoText">
                     <strong>PLAYLIST</strong>
-                    <h2>Discover Weekly</h2>
-                    <p>Description...</p>
+                    <h2>{ norah_jones?.name }</h2>
+                    <p>{ norah_jones?.description }</p>
                 </div>
             </div>
         </div>
